@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GoldBageChallenge.UI/1.0.0": {
+        "dependencies": {
+          "GoldBageChallenge.Data": "1.0.0",
+          "GoldBageChallenge.Repository": "1.0.0"
+        },
+        "runtime": {
+          "GoldBageChallenge.UI.dll": {}
+        }
+      },
+      "GoldBageChallenge.Data/1.0.0": {
+        "runtime": {
+          "GoldBageChallenge.Data.dll": {}
+        }
+      },
+      "GoldBageChallenge.Repository/1.0.0": {
+        "dependencies": {
+          "GoldBageChallenge.Data": "1.0.0"
+        },
+        "runtime": {
+          "GoldBageChallenge.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoldBageChallenge.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoldBageChallenge.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoldBageChallenge.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
